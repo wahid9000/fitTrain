@@ -13,7 +13,7 @@ const GetInTouch = () => {
                         <input type="text" placeholder="Name*" className="input bg-black  input-bordered w-full max-w-xs" />
                     </div>
                     <textarea className="textarea mt-5 textarea-bordered placeholder:text-lg placeholder:text-gray-500 bg-black w-full h-40" placeholder="Write your opinion..."></textarea>
-                    <button className="btn btn-warning text-white w-24 mt-3 hover:bg-orange-200">Send</button>
+                    <button className="btn btn-warning bg-[#D27D2D] text-white w-24 mt-3 hover:bg-orange-200">Send</button>
                 </div>
                 <div className="space-y-9 border p-10 rounded-lg text-white">
                 <div className="flex items-center gap-2">
