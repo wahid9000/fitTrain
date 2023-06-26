@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
 import { Slide } from "react-awesome-reveal";
 import ActiveLink from "./ActiveLink";
-import { FaBars } from 'react-icons/fa';
+import { FaAddressBook, FaBars, FaHome, FaInfo, FaQuestion } from 'react-icons/fa';
 import { Outlet } from "react-router-dom";
 import './Sidebar.css'
 
 const Sidebar = () => {
     return (
-        <div> 
+        <div>
             <div className="drawer lg:drawer-open font-primary ">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col mt-2 mx-2 bg shadow border ml-6 rounded-xl">
@@ -38,13 +38,36 @@ const Sidebar = () => {
                         <div>
                             <Slide>
                                 <div className="space-y-5">
-                                    <li><h2 className="text-2xl font-bold text-white">TrainHere</h2></li>
+                                    <li><h2 className="text-3xl font-bold text-white">FitTrain</h2></li>
                                     <div className="divider bg-white h-1"></div>
 
-                                    <li><ActiveLink to='/' className="text-xl font-semibold"><p className="mt-4">Home</p></ActiveLink></li>
-                                    <li><ActiveLink to='/contact' className="text-xl font-semibold"><p className="mt-4">Contact</p></ActiveLink></li>
-                                    <li><ActiveLink to='/information' className="text-xl font-semibold"><p className="mt-4">Information</p></ActiveLink></li>
-                                    <li><ActiveLink to='/guide' className="text-xl font-semibold"><p className="mt-4">Guide</p></ActiveLink></li>
+                                    <li><ActiveLink to='/' className="text-xl font-semibold">
+                                        <div className="flex items-center gap-2">
+                                        <FaHome className="mt-4"></FaHome>
+                                        <p className="mt-4">Home</p>
+                                        </div>
+                                    </ActiveLink></li>
+
+                                    <li><ActiveLink to='/contact' className="text-xl font-semibold">
+                                        <div className="flex items-center gap-2">
+                                        <FaAddressBook className="mt-4"></FaAddressBook>
+                                        <p className="mt-4">Contact</p>
+                                        </div>
+                                    </ActiveLink></li>
+
+                                    <li><ActiveLink to='/information' className="text-xl font-semibold">
+                                        <div className="flex items-center gap-1">
+                                            <FaInfo className="mt-4"></FaInfo>
+                                            <p className="mt-4">Information</p>
+                                        </div>
+                                    </ActiveLink></li>
+
+                                    <li><ActiveLink to='/guide' className="text-xl font-semibold">
+                                        <div className="flex items-center gap-2">
+                                        <FaQuestion className="mt-4"></FaQuestion>
+                                        <p className="mt-4">Guide</p>
+                                        </div>
+                                        </ActiveLink></li>
 
 
                                 </div>
