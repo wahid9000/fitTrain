@@ -1,6 +1,12 @@
+import { useLocation } from 'react-router-dom';
 import Upcoming from '../../../Components/Upcoming';
 import image from '../../../assets/image1.jpg';
+import useScrollTop from '../../../hooks/useScrollTop';
+
 const Home = () => {
+    const { pathName } = useLocation();
+    useScrollTop(pathName);
+
     return (
         <div className='text-white'>
             <div className='md:flex justify-center gap-10 w-11/12 items-center gap'>
