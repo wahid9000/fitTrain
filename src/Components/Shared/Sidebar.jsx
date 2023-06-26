@@ -7,10 +7,10 @@ import './Sidebar.css'
 
 const Sidebar = () => {
     return (
-        <div>
-            <div className="drawer lg:drawer-open font-primary">
+        <div> 
+            <div className="drawer lg:drawer-open font-primary ">
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
-                <div className="drawer-content flex flex-col">
+                <div className="drawer-content flex flex-col mt-2 mx-2 bg shadow border ml-6 rounded-xl">
                     <div>
                         <label htmlFor="my-drawer-2" className="btn btn-primary bg-blue-950 lg:hidden mt-4 ml-2"><FaBars className="text-white"></FaBars></label>
                     </div>
@@ -30,15 +30,15 @@ const Sidebar = () => {
 
                     </div>
                 </div>
-                <div className="drawer-side">
+                <div className="drawer-side mt-2 mx-2 rounded-xl">
                     <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                    <ul className="menu pt-6 w-60 h-full bg text-base-content">
+                    <ul className="menu pt-6 w-60 h-full bg-black text-base-content p-3" >
 
 
                         <div>
                             <Slide>
                                 <div className="space-y-5">
-                                    <li><h2 className="text-4xl font-bold text-white">TechFy</h2></li>
+                                    <li><h2 className="text-2xl font-bold text-white">TrainHere</h2></li>
                                     <div className="divider bg-white h-1"></div>
 
                                     <li><ActiveLink to='/' className="text-xl font-semibold"><p className="mt-4">Home</p></ActiveLink></li>

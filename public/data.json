@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Cardio Blast",
+        "id": 1,
+        "image": "https://i.ibb.co/hZTsf0m/cycling-equipment-healthy-fit-fitness.jpg",
+        "description": "An intense cardio workout to improve cardiovascular endurance and burn calories.",
+        "price": 25.99
+    },
+    {
+        "name": "Strength Training",
+        "id": 2,
+        "image": "https://i.ibb.co/xLPWwh1/stronger-young-muscular-caucasian-athlete-practicing-lunges-gym-with-barbell-male-model-doing-streng.jpg",
+        "description": "Build muscle strength and tone your body with this comprehensive strength training program.",
+        "price": 29.99
+    },
+    {
+        "name": "Yoga Fusion",
+        "id": 3,
+        "image": "https://i.ibb.co/60DkTvZ/young-woman-doing-pigeon-exercise.jpg",
+        "description": "Combine the benefits of yoga and pilates for a balanced mind-body workout experience.",
+        "price": 19.99
+    }
+]
