@@ -12,7 +12,7 @@ const Sidebar = () => {
                 <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
                 <div className="drawer-content flex flex-col mt-2 mx-2 bg shadow border ml-6 rounded-xl">
                     <div>
-                        <label htmlFor="my-drawer-2" className="btn btn-primary bg-blue-950 lg:hidden mt-4 ml-2"><FaBars className="text-white"></FaBars></label>
+                        <label htmlFor="my-drawer-2" className="btn btn-warning bg-orange-200 lg:hidden mt-4 ml-2"><FaBars className="text-black font-bold"></FaBars></label>
                     </div>
                     <div className="p-5 ">
                         <motion.div
